@@ -451,7 +451,6 @@ a:hover
 {
     0%
     {
-        transform: skew(-15deg,-50deg);
         opacity: 0;
     }
 }
@@ -459,7 +458,7 @@ a:hover
     {
         /* transform:scale(0,-0) ; */
         transform-style:preserve-3d ;
-        transform: translateX(-30%);
+        transform: scale(1.05);
     }
 
 .five4
@@ -1342,11 +1341,12 @@ margin: 10px;
       {
         background-color: rgb(38, 50, 50);
         padding-top: 50px;
+        height: 450px;
         box-sizing: border-box;
       }
       .sevanty1
       {
-        height: 400px;
+        height: 300px;
         width: 300px;
         box-sizing: border-box;
         display: inline-block;
@@ -1356,7 +1356,7 @@ margin: 10px;
       }
       .sevanty2
       {
-        height: 400px;
+        height: 300px;
         width: 300px;
         box-sizing: border-box;
         display: inline-block;
@@ -1365,7 +1365,7 @@ margin: 10px;
           }
       .sevanty3
       {
-        height: 400px;
+        height: 300px;
         width: 300px;
         margin: 0%;
         box-sizing: border-box;
@@ -1376,13 +1376,12 @@ margin: 10px;
       }
     .sevanty4
       {
-        height: 400px;
+        height: 100px;
         width: 400px;
         margin: 0%;
-        display: inline-block;
         position: relative;
         left: 1090px;
-        bottom: 450px;
+        bottom: 350px;
         box-sizing: border-box;
       }
       .sevanty1a
